@@ -1,0 +1,105 @@
+html {
+  background-color: #f1f1f1; }
+
+@font-face {
+  font-family: 'Icons';
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6SBCYAAAC8AAAAYGNtYXAZWs5OAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZgMgKjcAAAFwAAABHGhlYWQBdnXNAAACjAAAADZoaGVhB8IDxwAAAsQAAAAkaG10eAoAAAAAAALoAAAAGGxvY2EAtgBYAAADAAAAAA5tYXhwAAgANwAAAxAAAAAgbmFtZWQ3xxoAAAMwAAABXXBvc3QAAwAAAAAEkAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADm/APA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOb8//3//wAAAAAAIOb7//3//wAB/+MZCQADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAUAEAAJAABgAABMVFB4CMyEyPgI9ATQuAiMhIg4CFQAFCQsHA8AHCwkFBQkLB/xABwsJBQIgwAcLCQUFCQsHwAcLCQUFCQsHAAEAAP/ABAADwAA0AAABIRE0LgIrASIOAhURISIOAh0BFB4CMyERFB4COwEyPgI1ESEyPgI9ATQuAiMD4P6gBQkLB8AHCwkF/qAHCwkFBQkLBwFgBQkLB8AHCwkFAWAHCwkFBQkLBwJAAWAHCwkFBQkLB/6gBQkLB8AHCwkF/qAHCwkFBQkLBwFgBQkLB8AHCwkFAAABAAAAAAAA97mfFl8PPPUACwQAAAAAAM8sGKgAAAAAzywYqAAA/8AEAAPAAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAgAAAAQAAAAEAAAAAAAAAAAKABQAHgBEAI4AAAABAAAABgA1AAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEAFgAAAAEAAAAAAAIADgBjAAEAAAAAAAMAFgAsAAEAAAAAAAQAFgBxAAEAAAAAAAUAFgAWAAEAAAAAAAYACwBCAAEAAAAAAAoAKACHAAMAAQQJAAEAFgAAAAMAAQQJAAIADgBjAAMAAQQJAAMAFgAsAAMAAQQJAAQAFgBxAAMAAQQJAAUAFgAWAAMAAQQJAAYAFgBNAAMAAQQJAAoAKACHAHMAbABpAGQAZQByAGkAYwBvAG4AcwBWAGUAcgBzAGkAbwBuACAAMAAuADAAcwBsAGkAZABlAHIAaQBjAG8AbgBzc2xpZGVyaWNvbnMAcwBsAGkAZABlAHIAaQBjAG8AbgBzAFIAZQBnAHUAbABhAHIAcwBsAGkAZABlAHIAaQBjAG8AbgBzAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("truetype"), url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAATsAAoAAAAABKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAUcAAAFHHb77FE9TLzIAAAI8AAAAYAAAAGAOkgQmY21hcAAAApwAAABMAAAATBlazk5nYXNwAAAC6AAAAAgAAAAIAAAAEGhlYWQAAALwAAAANgAAADYBdnXNaGhlYQAAAygAAAAkAAAAJAfCA8dobXR4AAADTAAAABgAAAAYCgAAAG1heHAAAANkAAAABgAAAAYABlAAbmFtZQAAA2wAAAFdAAABXWQ3xxpwb3N0AAAEzAAAACAAAAAgAAMAAAEABAQAAQEBDHNsaWRlcmljb25zAAECAAEAOvgcAvgbA/gYBB4KAAl3/4uLHgoACXf/i4sMB4tL+pT6VAUdAAAAiA8dAAAAjREdAAAACR0AAAE+EgAHAQEMFxkbHiMoc2xpZGVyaWNvbnNzbGlkZXJpY29uc3UwdTF1MjB1RTZGQnVFNkZDAAACAYkABAAGAQEEBwoNPqj+lA7+lA7+lA78lA6L+LQVi/tUBYt5mX2diwj6VIsFnYuZmYudCIv3VAWLnX2ZeYsI/lSLBXmLfX2LeQgO+nT41BX79IuL9/QFi519mXmLCPtUiwV5i319i3kIi/v0+/SLBXmLfX2LeQiL+1QFi3mZfZ2LCPf0i4v79AWLeZl9nYsI91SLBZ2LmZmLnQiL9/T39IsFnYuZmYudCIv3VAWLnX2ZeYsIDvqUFPqUFYsMCgAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADm/APA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOb8//3//wAAAAAAIOb7//3//wAB/+MZCQADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAUuoLNfDzz1AAsEAAAAAADPLBioAAAAAM8sGKgAAP/ABAADwAAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAIAAAAEAAAABAAAAAAAUAAABgAAAAAADgCuAAEAAAAAAAEAFgAAAAEAAAAAAAIADgBjAAEAAAAAAAMAFgAsAAEAAAAAAAQAFgBxAAEAAAAAAAUAFgAWAAEAAAAAAAYACwBCAAEAAAAAAAoAKACHAAMAAQQJAAEAFgAAAAMAAQQJAAIADgBjAAMAAQQJAAMAFgAsAAMAAQQJAAQAFgBxAAMAAQQJAAUAFgAWAAMAAQQJAAYAFgBNAAMAAQQJAAoAKACHAHMAbABpAGQAZQByAGkAYwBvAG4AcwBWAGUAcgBzAGkAbwBuACAAMAAuADAAcwBsAGkAZABlAHIAaQBjAG8AbgBzc2xpZGVyaWNvbnMAcwBsAGkAZABlAHIAaQBjAG8AbgBzAFIAZQBnAHUAbABhAHIAcwBsAGkAZABlAHIAaQBjAG8AbgBzAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon {
+  font-family: 'Icons';
+  font-size: .9em;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.add:before {
+  content: "\e6fc"; }
+
+.minus:before {
+  content: "\e6fb"; }
+
+.container {
+  width: 400px;
+  margin: 50px 0 0 200px; }
+
+.accordion-menu {
+  margin: 1rem 0rem;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-family: Play, Verdana, sans-serif;
+  /*    Optional */
+  width: 300px; }
+  .accordion-menu .item {
+    position: relative;
+    font-size: 1.125rem;
+    display: block;
+    border-left: 0 solid rgba(0, 0, 0, 0);
+    border-right: 0;
+    border-top: 0 solid rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: opacity .2s ease,background .2s ease,-webkit-box-shadow .2s ease;
+    transition: opacity .2s ease,background .2s ease,box-shadow .2s ease;
+    background: #b31926;
+    color: white; }
+    .accordion-menu .item:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.03) 0, rgba(0, 0, 0, 0.1) 1.5em, rgba(0, 0, 0, 0.03) 100%);
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.03)), color-stop(1.5em, rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.03)));
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.03) 0, rgba(0, 0, 0, 0.1) 1.5em, rgba(0, 0, 0, 0.03) 100%); }
+    .accordion-menu .item a {
+      display: block;
+      padding: .83em .95em;
+      height: auto !important;
+      line-height: 1;
+      color: inherit;
+      text-decoration: none; }
+    .accordion-menu .item:hover {
+      cursor: pointer;
+      background-color: #820017; }
+
+.submenu .icon {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 1em;
+  color: rgba(0, 0, 0, 0.25); }
+.submenu.item + ul {
+  padding: 0;
+  display: none; }
+  .submenu.item + ul .item {
+    background-color: white;
+    color: #333; }
+    .submenu.item + ul .item:hover {
+      background-color: rgba(0, 0, 0, 0.15); }
+  .submenu.item + ul .active.item:not(.current_page_ancestor) {
+    background-color: #b3296b;
+    color: #f1f1f1; }
+    .submenu.item + ul .active.item:not(.current_page_ancestor):hover {
+      background-color: #ea6ba7;
+      color: #f1f1f1; }

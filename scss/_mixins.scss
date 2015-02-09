@@ -1,0 +1,13 @@
+// Mixins
+
+@mixin shadow($property) {
+  -webkit-box-shadow: $property;
+  box-shadow: $property;
+}
+
+@mixin box-sizing($property) {
+  -webkit-box-sizing: $property;
+  -moz-box-sizing: $property;
+  -ms-box-sizing: $property;
+  box-sizing: $property;
+}
